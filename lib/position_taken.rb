@@ -4,7 +4,7 @@ def valid_move?(board, index)
     true
   else
     false 
-end 
+end
 
 def position_taken?(board, index)
   value = board[index]
